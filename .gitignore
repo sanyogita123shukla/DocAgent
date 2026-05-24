@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# MacOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Application specific temporary/data files
+temp_uploads/
+
+# User requested files to ignore
+start_app.bat
+start_app.sh
+
+# Documentation and specific files to ignore
+explanation.md
+explanation_detailed.md
+PRESENTATION_PITCH.md
+walkthrough.md
+implementation_plan.md
+University Briefing 2026.pdf

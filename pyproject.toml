@@ -1,0 +1,33 @@
+[project]
+name = "docagent"
+version = "0.1.0"
+description = "AI Agent for PDF & Excel document analysis with reusable skills"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Agent Framework
+    "langgraph>=0.2.14",
+    "langchain-google-genai>=1.0.8",
+    "langchain-core>=0.2.33",
+    "langchain>=0.2.14",
+    # PDF Parsing
+    "PyMuPDF>=1.25",
+    "pdfplumber>=0.11",
+    # Excel Parsing
+    "openpyxl>=3.1",
+    "pandas>=2.2",
+    # File Detection
+    "python-magic>=0.4",
+    # Frontend
+    "streamlit>=1.40",
+    # Utilities
+    "python-dotenv>=1.0",
+    "pydantic>=2.7",
+    "st-copy>=1.1.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+]
